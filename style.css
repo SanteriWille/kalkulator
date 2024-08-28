@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f4f4f4;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar .logo {
+  color: #444;
+  font-size: 2.7rem;
+  text-decoration: none;
+}
+
+#navbar ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 2rem;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: #444;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+
+
+
+#calculator {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #363636;
+  border-radius: 15px;
+  max-width: 480px;
+  overflow: hidden;
+  margin: 5rem auto;
+}
+
+#display {
+  width: 100%;
+  padding: 25px;
+  font-size: 2rem;
+  text-align: left;
+  border: none;
+  background: #464646;
+  color: #fff;
+}
+
+#keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 25px;
+}
+
+button {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  border: none;
+  background: #575757;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #676767;
+}
+
+button:active {
+  background: #777777;
+}
+
+.operatorBtn {
+  background: #C57B57;
+}
+
+.operatorBtn:hover {
+  background: #C68B67;
+}
+
+.operatorBtn:active {
+  background:  #C69B69;
+}
